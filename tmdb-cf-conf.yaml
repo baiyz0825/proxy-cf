@@ -28,7 +28,7 @@ services:
         caPort: 9000
         customRuntimeConfig:
           command:
-            - npm
+            - node
           args:
             - app.js
       triggers:

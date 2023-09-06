@@ -30,8 +30,7 @@ services:
           command:
             - npm
           args:
-            - run
-            - start
+            - app.js
       triggers:
         - name: httpTrigger
           type: http
